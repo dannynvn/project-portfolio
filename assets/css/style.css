@@ -82,55 +82,55 @@
     font-size: 400%;
 }
 
-.about {
+#about {
     display: grid;
     grid-template-columns: 25% 75%;
     margin-bottom: 5%;
 }
 
-.about p {
+#about p {
     padding-left: 4%;
 }
 
-.work {
+#work {
     display: grid;
     grid-template-columns: 25% 75%;
     margin-bottom: 5%;
 }
 
-.work figure {
+#work figure {
     
 }
 
-.work figure img {
+#work figure img {
     padding: 5px;
 }
 
-.work figure h2 {
+#work figure h2 {
     position: relative;
     margin-bottom: 15px;
 }
 
-.work figure p {
+#work figure p {
 
 }
 
-.contact {
+#contact {
     display: grid;
     grid-template-columns: 25% 75%;
     margin-bottom: 5%;
 }
 
-.contact ul {
+#contact ul {
     display: flex;
     justify-content: space-between;
     padding: 7%;
 }
 
-.contact li {
+#contact li {
     display: inline;
 }
 
-.contact a {
+#contact a {
     font-size: 125%;
 }
