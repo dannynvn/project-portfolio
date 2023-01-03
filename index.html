@@ -15,10 +15,10 @@
             <h1>Danny Nguyen</h1>
             <nav>
                 <ul>
-                    <li> <a href="#about">About Me</a> </li>
-                    <li> <a href="#work">Work</a> </li>
-                    <li> <a href="#contact">Contact Me</a> </li>
-                    <li> <a href="#">Resume</a> </li>
+                    <li class="underline-nav"> <a href="#about">About Me</a> </li>
+                    <li class="underline-nav"> <a href="#work">Work</a> </li>
+                    <li class="underline-nav"> <a href="#contact">Contact Me</a> </li>
+                    <li class="underline-nav"> <a href="#">Resume</a> </li>
                 </ul>
             </nav>
         </header>
@@ -32,41 +32,55 @@
             <!-- about section with short description of who the portfolio owner is -->
             <section id="about">
                 <h1 class="main-content-headings">About <br/> Me</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores et animi nobis sint exercitationem ducimus nemo, odit ipsa earum blanditiis magni vel eum maxime voluptatum quod ab quasi eligendi nesciunt.</p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores et animi nobis sint exercitationem ducimus nemo, odit ipsa earum blanditiis magni vel eum maxime voluptatum quod ab quasi eligendi nesciunt.
+                    <br>
+                    <br>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur eaque eos eius a quam doloremque iure maiores cupiditate excepturi, commodi unde asperiores, dolorem quisquam et voluptatibus minima accusantium consequatur debitis.
+                    <br>
+                    <br>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut quisquam ex necessitatibus natus quibusdam! Ipsum omnis unde repellendus? Odio commodi dignissimos doloribus laboriosam dolore nesciunt earum voluptatibus repellat recusandae? Magnam!
+                </p>
             </section>
 
             <!-- projects section showcasing development projects the owner built -->
             <section id="work">
                 <h1 class="main-content-headings">Work</h1>
-                    <figure class="first-project">
+                    <figure id="first-project">
                         <div class="project-name">
                             <h2>Project 1</h2>
                             <p>Tech Stack</p>
                         </div>
                     </figure>
+                    
+                    <!-- div with right border to align grid items correctly on the right -->
                     <div class="div-border-right"></div>
-                    <figure>
+
+                    <figure id="second-project">
                         <div class="project-name">
                             <h2>Project 2</h2>
                             <p>Tech Stack</p>
                         </div>
                     </figure>
 
-                    <figure>
+                    <figure id="third-project">
                         <div class="project-name">
                             <h2>Project 3</h2>
                             <p>Tech Stack</p>
                         </div>
                     </figure>
+
+                    <!-- div with right border to align grid items correctly on the right -->
                     <div class="div-border-right"></div>
-                    <figure>
+
+                    <figure id="fourth-project">
                         <div class="project-name">
                             <h2>Project 4</h2>
                             <p>Tech Stack</p>
                         </div>
                     </figure>
 
-                    <figure>
+                    <figure id="fifth-project">
                         <div class="project-name">
                             <h2>Project 5</h2>
                             <p>Tech Stack</p>
@@ -74,14 +88,15 @@
                     </figure>
             </section>
 
+            <!-- contact section listing contact information and social media links -->
             <section id="contact">
                 <h1 class="main-content-headings">Contact Me</h1>
                 <ul>
-                    <li> <a href="#">123.456.7890</a> </li>
-                    <li> <a href="#">dannynvn@gmail.com</a> </li>
-                    <li> <a href="#">GitHub</a> </li>
-                    <li> <a href="#">Twitter</a> </li>
-                    <li> <a href="#">Spotify</a> </li>
+                    <li class="underline-contact"> <a href="#">123.456.7890</a> </li>
+                    <li class="underline-contact"> <a href="mailto:dannynvn@gmail.com">dannynvn@gmail.com</a> </li>
+                    <li class="underline-contact"> <a href="https://github.com/dannynvn">GitHub</a> </li>
+                    <li class="underline-contact"> <a href="https://twitter.com/">Twitter</a> </li>
+                    <li class="underline-contact"> <a href="https://open.spotify.com/">Spotify</a> </li>
                 </ul>
         </main>
     </body>
