@@ -112,58 +112,188 @@
     color: var(--content-heading-color);
 }
 
-#first-project {
+
+.first-project {
+    grid-row: 1;
     grid-column: 2 / span 2;
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
-    background-image: url("https://via.placeholder.com/700");
+    background-image: url("https://ocean.si.edu/sites/default/files/styles/article_main_image/public/25691336465_982637ea03_o.jpg.webp?itok=i62mC4wO");
     padding: 25% 10% 30px 0;
     margin: 10px 10px 10px 20px;
     border: 5px var(--dusty-aqua-color) solid;
+    text-decoration: none;
+    opacity: 70%;
 }
 
-#second-project {
+.first-project-title {
+    grid-row: 1;
+    grid-column: 2;
+    display: block;
+    position: relative;
+    color: var(--dark-blue-grey);
+    padding: 10px;
+    background-color: var(--dusty-aqua-color);
+    margin: 40% 60% 10% 20px;
+}
+
+.first-project-title h2 {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.first-project-title p {
+    font-size: 90%;
+    margin-top: 10px;
+}
+
+.second-project {
+    grid-row: 2;
+    grid-column: 2;
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
-    background-image: url("https://via.placeholder.com/500");
+    background-image: url("https://onewayeventproductions.com/wp-content/uploads/2020/02/AdobeStock_289192813.jpeg");
     padding: 10% 10% 30px 0;
     margin: 10px 10px 10px 20px;
     border: 5px var(--dusty-aqua-color) solid;
+    text-decoration: none;
+    opacity: 70%;
 }
 
-#third-project {
+.second-project-title {
+    grid-row: 2;
+    grid-column: 2;
+    display: block;
+    position: relative;
+    color: var(--dark-blue-grey);
+    padding: 10px;
+    background-color: var(--dusty-aqua-color);
+    margin: 15% 60% 10% 20px;
+}
+
+.second-project-title h2 {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.second-project-title p {
+    font-size: 90%;
+    margin-top: 10px;
+}
+
+.third-project {
+    grid-row: 2;
+    grid-column: 3;
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
-    background-image: url("https://via.placeholder.com/500");
+    background-image: url("https://thumbs.dreamstime.com/b/new-skills-knowledge-webinar-training-business-internet-technology-concept-new-skills-knowledge-webinar-training-business-internet-121274023.jpg");
     padding: 10% 10% 30px 0;
     margin: 10px 10px 10px 20px;
     border: 5px var(--dusty-aqua-color) solid;
+    text-decoration: none;
+    opacity: 70%;
 }
 
-#fourth-project {
+.third-project-title {
+    grid-row: 2;
+    grid-column: 3;
+    display: block;
+    position: relative;
+    color: var(--dark-blue-grey);
+    padding: 10px;
+    background-color: var(--dusty-aqua-color);
+    margin: 15% 60% 10% 20px;
+}
+
+.third-project-title h2 {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.third-project-title p {
+    font-size: 90%;
+    margin-top: 10px;
+}
+
+.fourth-project {
+    grid-row: 3;
+    grid-column: 2;
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
-    background-image: url("https://via.placeholder.com/500");
+    background-image: url("https://t4.ftcdn.net/jpg/02/68/78/69/360_F_268786932_3Biq3V8nZsT2iRuYNhzYVJV88VTRzZzs.jpg");
     padding: 10% 10% 30px 0;
     margin: 10px 10px 10px 20px;
     border: 5px var(--dusty-aqua-color) solid;
+    text-decoration: none;
+    opacity: 70%;
 }
 
-#fifth-project {
+.fourth-project-title {
+    grid-row: 3;
+    grid-column: 2;
+    display: block;
+    position: relative;
+    color: var(--dark-blue-grey);
+    padding: 10px;
+    background-color: var(--dusty-aqua-color);
+    margin: 15% 60% 10% 20px;
+}
+
+.fourth-project-title h2 {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.fourth-project-title p {
+    font-size: 90%;
+    margin-top: 10px;
+}
+
+.fifth-project {
+    grid-row: 3;
+    grid-column: 3;
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
-    background-image: url("https://via.placeholder.com/500");
+    background-image: url("https://previews.123rf.com/images/nexusplexus/nexusplexus1211/nexusplexus121100844/16287514-business-person-working-with-modern-virtual-technology.jpg");
     padding: 10% 10% 30px 0;
     margin: 10px 10px 10px 20px;
     border: 5px var(--dusty-aqua-color) solid;
+    text-decoration: none;
+    opacity: 70%;
 }
 
-.project-name {
+.fifth-project-title {
+    grid-row: 3;
+    grid-column: 3;
+    display: block;
+    position: relative;
+    color: var(--dark-blue-grey);
+    padding: 10px;
+    background-color: var(--dusty-aqua-color);
+    margin: 15% 60% 10% 20px;
+}
+
+.fifth-project-title h2 {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.fifth-project-title p {
+    font-size: 90%;
+    margin-top: 10px;
+}
+
+.box-glow:hover {
+    opacity: 100%;
+    transition: all 0.5s ease-in-out;
+}
+
+/* .project-name {
     color: var(--dark-blue-grey);
     padding: 10px;
     background-color: var(--dusty-aqua-color);
@@ -177,7 +307,7 @@
 .project-name p {
     font-size: 90%;
     margin-top: 10px;
-}
+} */
 
 #contact {
     display: grid;
