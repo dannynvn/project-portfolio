@@ -75,7 +75,7 @@
     text-align: right;
     align-items: center;
     padding-right: 5%;
-    padding-bottom: 25%;
+    padding-bottom: 5%;
     border-right: 5px solid;
     color: var(--content-heading-color);
     font-weight: normal;
@@ -94,16 +94,29 @@
 
 #work {
     display: grid;
-    grid-template-columns: 25% 75%;
+    border: 1px solid;
+    grid-template-columns: 25% 37.5% 37.5%;
+    grid-template-rows: auto;
     margin-bottom: 5%;
 }
 
+.first-project {
+    grid-column: 2 / span 2;
+    display: flex;
+    justify-content: center;
+}
+
+.div-border-right {
+    border-right: 5px solid;
+    color: var(--content-heading-color);
+}
+
 #work figure {
-    
+
 }
 
 #work figure img {
-    padding: 5px;
+    
 }
 
 #work figure h2 {
