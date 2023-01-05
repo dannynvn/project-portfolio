@@ -1,3 +1,4 @@
+/* Consistently used colors to maintain theme */
 :root {
     --dark-blue-grey: #32343d;
     --dusty-aqua-color: #92cccd;
@@ -8,6 +9,7 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
 }
 
+/* header section style */
 .header {
     padding: 15px 15px 15px 0;
     background-color: var(--dark-blue-grey);
@@ -22,6 +24,7 @@
     padding: 5px 5px 5px 70px;
 }
 
+/* header navigation style */
 .header nav {
     padding-top: 15px;
     margin-right: 70px;
@@ -47,11 +50,13 @@
     margin-right: 8px;
 }
 
+/* underline style for navigation links */
 .underline-nav {
     border-bottom: 4px solid var(--dusty-aqua-color);
     padding-bottom: 5px;
 }
 
+/* background profile image */
 .hero {
     display: block;
     height: 300px;
@@ -62,6 +67,7 @@
     background-position: center;
 }
 
+/* subtitle on top of background profile image */
 .hero-subtitle {
     position: absolute;
     top: 300px;
@@ -72,11 +78,13 @@
     color: var(--dark-blue-grey);
 }
 
+/* main content container to dictate margins for entire content section */
 .main-content {
     margin: 50px 100px 10px 100px;
     padding-bottom: 5%;
 }
 
+/* style for main heading for each content section */
 .main-content-headings {
     display: flex;
     justify-content: flex-end;
@@ -90,6 +98,7 @@
     font-size: 400%;
 }
 
+/* About Me content section styles */
 #about {
     display: grid;
     grid-template-columns: 25% 75%;
@@ -101,6 +110,7 @@
     text-align: justify;
 }
 
+/* Work content section styles */
 #work {
     display: grid;
     grid-template-columns: 25% 37.5% 37.5%;
@@ -108,12 +118,13 @@
     margin-bottom: 5%;
 }
 
+/* Visible right side border for each main heading */
 .div-border-right {
     border-right: 5px solid;
     color: var(--content-heading-color);
 }
 
-
+/* Project 1 positioning and styles */
 .first-project {
     grid-row: 1;
     grid-column: 2 / span 2;
@@ -149,6 +160,7 @@
     margin-top: 10px;
 }
 
+/* Project 2 positioning and styles */
 .second-project {
     grid-row: 2;
     grid-column: 2;
@@ -184,6 +196,7 @@
     margin-top: 10px;
 }
 
+/* Project 3 positioning and styles */
 .third-project {
     grid-row: 2;
     grid-column: 3;
@@ -219,6 +232,7 @@
     margin-top: 10px;
 }
 
+/* Project 4 positioning and styles */
 .fourth-project {
     grid-row: 3;
     grid-column: 2;
@@ -254,6 +268,7 @@
     margin-top: 10px;
 }
 
+/* Project 5 positioning and styles */
 .fifth-project {
     grid-row: 3;
     grid-column: 3;
@@ -289,11 +304,13 @@
     margin-top: 10px;
 }
 
-.box-glow:hover {
+/* opacity animation when hovering over each project box */
+.box-opacity:hover {
     opacity: 100%;
     transition: all 0.5s ease-in-out;
 }
 
+/* Contact Me content section styling and positioning */
 #contact {
     display: grid;
     grid-template-columns: 25% 75%;
@@ -323,6 +340,8 @@
     padding-bottom: 5px;
 }
 
+
+/* adaptive styling and position for smaller screens */
 @media screen and (max-width: 768px) {
     .header h1 {
         display: inline-block;
