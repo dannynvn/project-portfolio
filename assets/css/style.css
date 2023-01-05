@@ -64,7 +64,7 @@
 
 .hero-subtitle {
     position: absolute;
-    top: 40%;
+    top: 300px;
     right: 80px;
     padding: 10px;
     font-size: 250%;
@@ -98,6 +98,7 @@
 
 #about p {
     padding-left: 20px;
+    text-align: justify;
 }
 
 #work {
@@ -293,22 +294,6 @@
     transition: all 0.5s ease-in-out;
 }
 
-/* .project-name {
-    color: var(--dark-blue-grey);
-    padding: 10px;
-    background-color: var(--dusty-aqua-color);
-}
-
-.project-name h2 {
-    font-size: 30px;
-    margin-bottom: 5px;
-}
-
-.project-name p {
-    font-size: 90%;
-    margin-top: 10px;
-} */
-
 #contact {
     display: grid;
     grid-template-columns: 25% 75%;
@@ -336,4 +321,126 @@
 .underline-contact {
     border-bottom: 4px solid var(--dark-blue-grey);
     padding-bottom: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .header h1 {
+        display: inline-block;
+        align-items: flex-end;
+        font-size: 215%;
+        background-color: var(--dusty-aqua-color);
+        color: var(--dark-blue-grey);
+        padding: 5px 5px 5px 70px;
+    }
+
+    .header nav {
+        padding-top: 15px;
+        margin-right: 30px;
+        float: right;
+        font-size: 10px;
+        color: var(--dusty-aqua-color);
+    }
+
+    .hero-subtitle {
+        position: absolute;
+        top: 300px;
+        right: 80px;
+        padding: 10px;
+        font-size: 150%;
+        background-color: var(--dusty-aqua-color);
+        color: var(--dark-blue-grey);
+    }
+
+    .main-content {
+        margin: 50px 50px 10px 5px;
+        padding-bottom: 5%;
+    }
+
+    .main-content-headings {
+        display: flex;
+        justify-content: flex-end;
+        text-align: right;
+        align-items: flex-start;
+        padding-right: 5%;
+        padding-bottom: 5%;
+        border-right: 5px solid;
+        color: var(--content-heading-color);
+        font-weight: normal;
+        font-size: 200%;
+    }
+
+    #about p {
+        padding-left: 20px;
+        text-align: justify;
+    }
+
+    .first-project-title {
+        grid-row: 1;
+        grid-column: 2;
+        display: block;
+        position: relative;
+        color: var(--dark-blue-grey);
+        padding: 10px;
+        background-color: var(--dusty-aqua-color);
+        margin: 40% 20% 10% 20px;
+    }
+
+    .second-project-title {
+        grid-row: 2;
+        grid-column: 2;
+        display: block;
+        position: relative;
+        color: var(--dark-blue-grey);
+        padding: 10px;
+        background-color: var(--dusty-aqua-color);
+        margin: 35% 20% 10% 20px;
+    }
+
+    .third-project-title {
+        grid-row: 2;
+        grid-column: 3;
+        display: block;
+        position: relative;
+        color: var(--dark-blue-grey);
+        padding: 10px;
+        background-color: var(--dusty-aqua-color);
+        margin: 35% 20% 10% 20px;
+    }
+
+    .fourth-project-title {
+        grid-row: 3;
+        grid-column: 2;
+        display: block;
+        position: relative;
+        color: var(--dark-blue-grey);
+        padding: 10px;
+        background-color: var(--dusty-aqua-color);
+        margin: 35% 20% 10% 20px;
+    }
+
+    .fifth-project-title {
+        grid-row: 3;
+        grid-column: 3;
+        display: block;
+        position: relative;
+        color: var(--dark-blue-grey);
+        padding: 10px;
+        background-color: var(--dusty-aqua-color);
+        margin: 35% 20% 10% 20px;
+    }
+
+    #contact ul {
+        display: block;
+        padding: 10%;
+    }
+
+    #contact li {
+        display: block;
+    }
+
+    .underline-contact {
+        border-bottom: 2px solid var(--dark-blue-grey);
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
 }
